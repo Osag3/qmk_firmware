@@ -24,6 +24,12 @@
 #    include "user_song_list.h"
 #endif // if file exists
 
+/* Moogle "kupo" sound from Final Fantasy
+ * Author: Square Enix
+ * Transcribed for QMK
+ */
+#define MOOGLE_KUPO S__NOTE(_B5), S__NOTE(_G5), E__NOTE(_E5), S__NOTE(_REST), QD_NOTE(_C6)
+
 #define NO_SOUND
 
 /* Ode to Joy
